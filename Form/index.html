@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="userForm">
+        <div class="header">
+            <h3>Please enter the following information to find your celebrity match</h3>
+        </div>
+       <form action="celebritymatch.php" id="celebrityApi">
+        <label for="firstName">Enter First Name: 
+            <input type="text" id="fname" name="firstName">
+        </label>
+        <br>
+        <br>
+        <label for="lastName">Enter Last Name: 
+            <input type="text" id="lname" name="lastName">
+        </label>
+        <br>
+        <br>
+        <label for="email">Enter Email: 
+            <input type="email" id="userEmail" name="email">
+        </label>
+        <br>
+        <br>
+        <label for="password">Enter Password:
+            <input type="password" id="userPassword" name="password">
+        </label>
+        <br>
+        <br>
+        <label for="birthday">Enter Birthday (yyyy-mm-dd):
+            <input type="date" id="bday" name="birthday">
+
+        </label>
+        <br>
+        <br>
+
+        <button id="submitButton">Submit</button>
+       </form>
+    </div>
+</body>
+</html>
