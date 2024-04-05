@@ -8,38 +8,45 @@
     <title>Login Form</title>
 </head>
 <body>
+    <!--Main div-->
     <div class="userForm">
         <div class="header">
             <h3>Please enter the following information to find your celebrity match</h3>
         </div>
+        <!--Form-->
        <form action="celebritymatch.php" id="celebrityApi">
+        <!--First Name Input field-->
         <label for="firstName">Enter First Name: 
             <input type="text" id="fname" name="firstName">
         </label>
         <br>
         <br>
+        <!--Last Name Input field-->
         <label for="lastName">Enter Last Name: 
             <input type="text" id="lname" name="lastName">
         </label>
         <br>
         <br>
+        <!--Email Input field-->
         <label for="email">Enter Email: 
             <input type="email" id="userEmail" name="email">
         </label>
         <br>
         <br>
+        <!--Password Input field-->
         <label for="password">Enter Password:
             <input type="password" id="userPassword" name="password">
         </label>
         <br>
         <br>
+        <!--Birthday Input field-->
         <label for="birthday">Enter Birthday (yyyy-mm-dd):
             <input type="date" id="bday" name="birthday">
 
         </label>
         <br>
         <br>
-
+        <!--Submit Button-->
         <button id="submitButton">Submit</button>
        </form>
     </div>
