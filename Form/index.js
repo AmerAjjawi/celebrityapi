@@ -1,7 +1,10 @@
 
 //function for validation
 
-
+//set variable
+let firstName = document.getElementById(fname);
+let lastname = document.getElementById(lname);
+let email = document.getElementById(userEmail);
 
 
 
