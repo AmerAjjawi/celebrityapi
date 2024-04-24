@@ -1,13 +1,15 @@
 
-//function for validation
+
 
 //set variable
-let firstName = document.getElementById(fname);
-let lastname = document.getElementById(lname);
-let email = document.getElementById(userEmail);
-
-
-
+let firstName = document.getElementById('fname');
+let lastname = document.getElementById('lname');
+let email = document.getElementById('userEmail');
+let password = document.getElementById('userPassword'); 
+let birthday = document.getElementById('bday');
+let submitButton = document.getElementById('submitButton');
+let reset = document.getElementById('reset');
+//function for validation
 
 
 
